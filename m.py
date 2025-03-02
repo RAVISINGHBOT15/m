@@ -20,7 +20,7 @@ admin_id = ["7129010361"]
 
 # Group and channel details
 GROUP_ID = "-1002369239894"
-CHANNEL_USERNAME = "@R_SDanger_op"
+CHANNEL_USERNAME = "@KHAPITAR_BALAK"
 
 # Default cooldown and attack limits
 COOLDOWN_TIME = 0  # Cooldown in seconds
@@ -105,7 +105,7 @@ def handle_attack(message):
         return
 
     if not is_user_in_channel(user_id):
-        bot.reply_to(message, f"❗ **𝐏𝐀𝐇𝐋𝐄 𝐉𝐎𝐈𝐍 𝐊𝐑𝐎** {CHANNEL_USERNAME} 🔥")
+        bot.reply_to(message, f"❗ **BATA CHANNEL JOIN KAR PEHLE** {CHANNEL_USERNAME} 🔥")
         return
 
     if pending_feedback.get(user_id, False):
